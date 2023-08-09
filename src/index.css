@@ -1,0 +1,21 @@
+:root {
+    /* colors */
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 20%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+
+    /* font */
+    --paragraph-15: (15px);
+    --overpasss: ('Overpass', sans-serif; );
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    font-family: 'Overpass', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
