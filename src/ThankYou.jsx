@@ -1,6 +1,6 @@
 import { Typography, Box } from "@mui/material";
 
-export default function ThankYou() {
+export default function ThankYou({ value }) {
     return (
         <>
             <Box
@@ -34,7 +34,7 @@ export default function ThankYou() {
                         my: '1rem'
                     }}
                 >
-                    You selected 4 out of 5
+                    You selected {value} out of 5
                 </Typography>
                 <Typography
                     component='h1'

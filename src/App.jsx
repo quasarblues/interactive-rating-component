@@ -1,11 +1,10 @@
-import RatingForm from './RatingForm'
+import Rating from './Rating'
 import ThankYou from './ThankYou'
 
 function App() {
   return (
     <>
-      <RatingForm />
-      <ThankYou />
+      <Rating />
     </>
   )
 }
