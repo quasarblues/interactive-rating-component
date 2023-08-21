@@ -1,6 +1,5 @@
 import RatingForm from './RatingForm'
 import ThankYou from './ThankYou'
-import Rating from './Rating'
 import { useState } from 'react';
 
 function App() {

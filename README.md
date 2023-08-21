@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/quasarblues/interactive-rating-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -33,13 +33,20 @@ Users should be able to:
 
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- Material UI
+- [Material UI](https://mui.com/ "React UI tool")
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+**How my solution differs from the example**
+
+* I used stars instead of numbers. This was quicker to do using Material UI. I needed to speed up the process so I could focus on the React side of things.
+* Grey circles behind the numbers were excluded.
+* I used icons from Material UI instead of svg images.
+* I added a button to the Thank You component so users can change their ratings (and so we don't have to refresh the page to see the Rating component again)
 
 ### What I learned
 
 + How to use the sx property in Material UI
-+ How to use Box, Stack, and Typography Components in Material UI
++ How to use Box, Stack, and Typography Components in Material UI.
 + How to set global CSS variables in a React project.
++ How to conditionally render content using React.
++ How to pass state to children.
 
