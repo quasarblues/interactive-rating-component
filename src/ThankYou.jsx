@@ -1,6 +1,6 @@
-import { Typography, Box } from "@mui/material";
+import { Typography, Box, Button } from "@mui/material";
 
-export default function ThankYou({ value }) {
+export default function ThankYou({ value, onClick }) {
     return (
         <>
             <Box
@@ -57,8 +57,24 @@ export default function ThankYou({ value }) {
                     }}>
                     We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
                 </Typography>
+                <Button
+                    variant="contained"
+                    onClick={onClick}
+                    sx={{
+                        backgroundColor: 'var(--orange)',
+                        width: '18rem',
+                        borderRadius: '20px',
+                        mt: '1rem',
+                        transition: "background 0.5s, color 0.5s",
+                        "&:hover": {
+                            backgroundColor: 'white',
+                            color: 'var(--orange)'
+                        }
+                    }}
+                >
+                    Change Rating
+                </Button>
             </Box >
-
         </>
     )
 }
