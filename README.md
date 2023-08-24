@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/quasarblues/interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/quasarblues/interactive-rating-component)
+- Live Site URL: [Netlify Live Site](https://interactive-rating-component-quasarbl.netlify.app/)
 
 ## My process
 
