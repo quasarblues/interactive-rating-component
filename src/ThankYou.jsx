@@ -18,7 +18,7 @@ export default function ThankYou({ value, onClick }) {
             >
                 <Box
                     component="img"
-                    src="images/illustration-thank-you.svg"
+                    src="/assets/illustration-thank-you.svg"
                     alt="small icon of a reciept being printed"
                     sx={{
                         my: '1rem'
